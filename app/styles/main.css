@@ -7,6 +7,10 @@
 
 body {
   padding: 0;
+  background-color: #c2d2fb;
+}
+.subheading {
+  font-size: 1em;
 }
 
 
@@ -87,4 +91,16 @@ body {
 
 .textgreen {
   color: green;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.dropdown {
+  float: right;
+}
+
+.curves {
+  float: left;
 }
