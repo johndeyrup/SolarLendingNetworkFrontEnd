@@ -28,7 +28,6 @@ angular.module('slnApp')
   		// csv = ["SIRAGUSA PETER C 3RD"]
   		$http.post('https://obscure-ridge-64270.herokuapp.com/users', csv)
   		.then(function(response) {
-  			console.log(response.data);
          $scope.valid_customers = response.data;
         }, function(response) {
           console.log('failed to post your data');
