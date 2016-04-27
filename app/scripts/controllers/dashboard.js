@@ -26,7 +26,7 @@ angular.module('slnApp')
   		// 	new_csv.push(csv[index]);
   		// }
   		// csv = ["SIRAGUSA PETER C 3RD"]
-  		$http.post('http://localhost:3000/users', csv)
+  		$http.post('https://obscure-ridge-64270.herokuapp.com/users', csv)
   		.then(function(response) {
   			console.log(response.data);
          $scope.valid_customers = response.data;
